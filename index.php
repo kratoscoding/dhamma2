@@ -1,4 +1,5 @@
 <?php include('server2.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,20 +15,20 @@
         <!-- navbar top head  -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Dhammachanting.com </a>
+                <a class="navbar-brand" href="www.dhammachanting.com"> Dhammachanting.com </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link active me-3" aria-current="page" href="#">หน้าแรก</a>
+                    <a class="nav-link active me-3" aria-current="page" href="index.php">หน้าแรก</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link me-3" href="#">สวดมนต์ก่อนนอน</a>
+                    <a class="nav-link me-3" href="https://www.youtube.com/watch?v=AtpQVceG75I"> ดนตรีบำบัดคลายเครียด </a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link me-3" href="#">ธรรมะก่อนนอน</a>
+                    <a class="nav-link me-3" href="https://youtube.com/playlist?list=PLi0UnGrSJK_WjwYXclVgOV_l0u-YYZZC3">ธรรมะก่อนนอน</a>
                     </li>
                    
                 </ul>
@@ -87,21 +88,23 @@
 
         <div class="container my-5">
             <div class="row mt-3">
-                <div class="col-sm">
+                <div class="col-sm d-flex justify-content-center">
                     <div class="card">
                         <div class="card-body">
-                        <img src="https://picsum.photos/400/300?random=1" class="w-100">
-                        <h3 class="my-3">หัวข้อธรรมะ 1</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et vero fuga pariatur, optio porro nam quae sed sequi itaque voluptatum beatae error, eius, veritatis culpa tempore ipsam nostrum molestiae. Eaque minima unde perspiciatis, illo sit molestias est assumenda eos doloribus ratione nostrum ipsa quos natus illum animi! Iure, officia sapiente?</p>
+                        <!-- <img src="https://picsum.photos/400/300?random=1" class="w-100"> -->
+                        <iframe width="400" height="315" src="https://www.youtube.com/embed/boTSvrVqeec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <h3 class="my-3"> บทอิติปิโส </h3>
+                       
                         </div>
                     </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm d-flex justify-content-center">
                     <div class="card">
                         <div class="card-body">
-                        <img src="https://picsum.photos/400/300?random=2" class="w-100">
-                        <h3 class="my-3">หัวข้อธรรมะ 2</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et vero fuga pariatur, optio porro nam quae sed sequi itaque voluptatum beatae error, eius, veritatis culpa tempore ipsam nostrum molestiae. Eaque minima unde perspiciatis, illo sit molestias est assumenda eos doloribus ratione nostrum ipsa quos natus illum animi! Iure, officia sapiente?</p>
+                        <iframe width="400" height="315" src="https://www.youtube.com/embed/MUS6qj8VVLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- <img src="https://picsum.photos/400/300?random=2" class="w-100"> -->
+                        <h3 class="my-3"> แผ่เมตตา วิรูปักเข </h3>
+                        
                         </div>
                     </div>
                 </div>
